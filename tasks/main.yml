@@ -14,7 +14,7 @@
     - python-numexpr
     - python-tables
     - python-pip
-    - PyYAML
+    - python-yaml
     - scipy
     - python-pillow
   when: "{{ omero_python_deps_recommended }}"
