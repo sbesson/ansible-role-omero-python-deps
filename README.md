@@ -3,7 +3,7 @@ OMERO Python Dependencies
 
 Python dependencies for OMERO.
 
-OMERO depends on several Python modules, they should be installted from distribution packages.
+OMERO depends on several Python modules, they should be installed from distribution packages.
 
 
 In addition you can choose to install all recommended Python dependencies or a minimal subset which should allow OMERO to run, but with reduced functionality.
