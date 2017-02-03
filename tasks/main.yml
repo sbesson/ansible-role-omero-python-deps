@@ -12,9 +12,10 @@
     - python-jinja2
     - python-matplotlib
     - python-numexpr
-    - python-tables
+    - python-pillow
     - python-pip
+    - python-tables
     - python-yaml
     - scipy
-    - python-pillow
+
   when: "{{ omero_python_deps_recommended }}"
