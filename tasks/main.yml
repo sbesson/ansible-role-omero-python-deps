@@ -16,4 +16,5 @@
     - python-pip
     - PyYAML
     - scipy
+    - python-pillow
   when: "{{ omero_python_deps_recommended }}"
