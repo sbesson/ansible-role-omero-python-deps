@@ -17,5 +17,3 @@
     - python-tables
     - python-yaml
     - scipy
-
-  when: "{{ omero_python_deps_recommended }}"

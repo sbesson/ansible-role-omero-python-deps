@@ -1,5 +1,2 @@
 ---
 # defaults file for roles/omero-python-deps
-
-# Install minimal or all recommended packages?
-omero_python_deps_recommended: True
