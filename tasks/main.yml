@@ -15,5 +15,5 @@
     - python-pillow
     - python-pip
     - python-tables
-    - python-yaml
+    - PyYAML
     - scipy
