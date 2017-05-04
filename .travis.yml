@@ -6,7 +6,7 @@ services:
   - docker
 
 install:
-  - pip install ome-ansible-molecule-dependency
+  - pip install ome-ansible-molecule-dependencies
 
 script:
   - molecule test
