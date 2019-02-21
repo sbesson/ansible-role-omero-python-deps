@@ -7,7 +7,7 @@ testinfra_hosts = testinfra.utils.ansible_runner.AnsibleRunner(
 
 
 @pytest.mark.parametrize("package", [
-    'Cython', 'numpy', 'python-jinja2', 'python-matplotlib', 'python-numexpr',
-    'python-pillow', 'python-pip', 'python-tables', 'PyYAML'])
+    'Cython', 'numpy', 'python-jinja2', 'python-matplotlib', 'python2-numexpr',
+    'python-pillow', 'python2-pip', 'python-tables', 'PyYAML'])
 def test_packages(host, package):
     assert host.package(package).is_installed
