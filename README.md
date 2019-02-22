@@ -1,6 +1,9 @@
 OMERO Python Dependencies
 =========================
 
+[![Build Status](https://travis-ci.org/openmicroscopy/ansible-role-omero-python-deps.svg)](https://travis-ci.org/openmicroscopy/ansible-role-omero-python-deps)
+[![Ansible Role](https://img.shields.io/ansible/role/14771.svg)](https://galaxy.ansible.com/openmicroscopy/omero-python-deps/)
+
 Python dependencies for OMERO.
 
 OMERO depends on several Python modules, they should be installed from distribution packages.
